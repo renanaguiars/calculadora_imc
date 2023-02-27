@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+}
+
+.container {
+    background-color: #272727;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    align-items: center;
+    border-radius: 20px;
+    border: 6px solid orange;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    height: 500px;
+    background-color: #F6F6F6;
+}
+
+.titulo {
+    text-align: center;
+    padding: 15px;
+    font-weight: bold;
+    color: black;
+}
+
+.formulario {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    row-gap: 15px;
+}
+
+label {
+    font-size: 1.12rem;
+}
+
+.input {
+    width: 100px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.botoes {
+    display: flex;
+    gap: 35px;
+}
+
+button {
+    padding: 6.5px;
+    border-radius: 10px;
+    border: 2px solid black;
+    color: #CCC;
+    background-color: black;
+}
+
+button:hover {
+    background-color: #272727;
+    color: orange;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+table {
+    padding: 10px;
+    margin: 3px 3px;
+    width: 100%;
+    table-layout: fixed;
+}
+
+th, td {
+    border: 1px solid black;
+    background-color: white;
+    text-align: center;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.rodape {
+    background-color: orange;
+    width: 150px;
+    padding: 8px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+.resultado {
+    font-size: 1.12rem;
+    font-weight: bold;
+    color: white;
+}

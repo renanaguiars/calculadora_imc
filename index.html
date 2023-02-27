@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de IMC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="container">
+        <section class="box">
+            <h1 class="titulo">Calculadora de IMC</h1>
+            <form class="formulario">
+                <div class="dados">
+                    <label>Altura:</label>
+                    <input id="altura" class="input">
+                </div>
+    
+                <div class="dados">
+                    <label>Peso:</label>
+                    <input id="peso" class="input">
+                </div>
+               
+                <div class="botoes">
+                    <button type="submit">Calcular</button>
+                    <button class="limpar">Limpar</button>
+                </div>
+            </form>
+
+            <div class="tabela">
+                <table>
+                    <tr class="linha-tabela">
+                        <th>IMC</th>
+                        <th>Classificação</th>
+                        <th>Obesidade (GRAU)</th>
+                    </tr>
+                    <tr class="linha-tabela">
+                        <td>Menor que 18.5</td>
+                        <td>Magreza</td>
+                        <td>0</td>
+                    </tr>
+                    <tr class="linha-tabela">
+                        <td>Entre 18.5 e 24.9</td>
+                        <td>Normal</td>
+                        <td>0</td>
+                    </tr>
+                    <tr class="linha-tabela">
+                        <td>Entre 25.0 e 29.9</td>
+                        <td>Sobrepeso</td>
+                        <td>1</td>
+                    </tr>
+                    <tr class="linha-tabela">
+                        <td>Entre 30.0 e 39.9</td>
+                        <td>Obesidade</td>
+                        <td>2</td>
+                    </tr>
+                    <tr class="linha-tabela">
+                        <td>Maior que 40.0</td>
+                        <td>Obesidade Grave</td>
+                        <td>3</td>
+                    </tr>
+                </table>
+            </div>
+
+            <footer class="rodape">
+                <h3>Seu IMC:</h3>
+                <p class="resultado"></p>
+            </footer>
+
+        </section>
+    </main>
+<script src="main.js"></script>
+</body>
+</html>
